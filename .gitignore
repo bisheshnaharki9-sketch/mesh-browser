@@ -20,4 +20,7 @@
 !mesh-router.py
 !mesh-scrubber.py
 !fullscreen.py
-!patch_ui.py
+!fonts/
+!fonts/**
+!userscripts/
+!userscripts/**
