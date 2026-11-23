@@ -7,7 +7,7 @@ A sandboxed, hybrid **I2P + Nym Mixnet** desktop browser built around a custom t
 ## Architecture
 
 - **Desktop App Shell (`mesh-app.py`)**
-  Native GTK3 + WebKit2 (`4.1`) window that hosts the browser UI (`ui.html`) on `127.0.0.1:8080`.
+  Native GTK3 + WebKit2 (`4.1`) window that hosts the browser UI (`ui.html`) on `127.0.0.1:8080` or run ./start-mesh.sh then an tauri app opens simple use.
 - **Control Server (`server.py`)**
   Locked to `127.0.0.1:8080` with strict origin checks and URL sanitization. Manages per-tab sandboxes, security levels, privacy toggles, route resets, and identity wipes.
 - **Hybrid Fail-Closed Proxy (`mesh-router.py`)**
