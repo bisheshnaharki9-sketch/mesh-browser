@@ -47,11 +47,11 @@ Configured live from the UI (`Standard` / `Safer` / `Safest`):
 ---
 
 ## Usage & Installation
-git clone https://github.com/bisheshnaharki9-sketch/mesh-browser.git
-cd mesh-browser
+- git clone https://github.com/bisheshnaharki9-sketch/mesh-browser.git
+- cd mesh-browser
 # Download servoshell-runtime-linux-x86_64.tar.gz and nym-socks5-client from the latest Release, then:
-tar -xzvf servoshell-runtime-linux-x86_64.tar.gz
-chmod +x servoshell nym-socks5-client start-mesh.sh mesh-run.sh
-./start-mesh.sh
-Start the full Mesh Browser stack 
+- tar -xzvf servoshell-runtime-linux-x86_64.tar.gz
+- chmod +x servoshell nym-socks5-client start-mesh.sh mesh-run.sh
+- ./start-mesh.sh
+- Start the full Mesh Browser stack 
 
